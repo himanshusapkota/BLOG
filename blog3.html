@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML & CSS</title>
+  <style>
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f3f4f6;
+      color: #333;
+    }
+
+    /* Navbar styles */
+    .navbar {
+      background-color: #111;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .navbar .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #00bfff;
+    }
+
+    /* Blog post container */
+    .post-container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .post-container h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .post-container p {
+      font-size: 17px;
+      line-height: 1.7;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .post-container ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .post-container ul li {
+      margin-bottom: 10px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">📝 Himanshu's Blog</div>
+      <nav class="nav-links">
+        <a href="">Home</a>
+        <a href="#">Posts</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Blog Post -->
+  <div class="post-container">
+    <h1>Getting Started With HTML & CSS👍🏻</h1>
+ <p>
+      If you’ve ever wondered how websites are made, HTML and CSS are the perfect place to start. They form the foundation of every web page you see online — HTML provides the structure, and CSS adds style and design.
+    </p>
+
+    
+
+    <p>
+      <strong>HTML</strong> (HyperText Markup Language) is like the skeleton of a website. It uses elements called <em>tags</em> to organize and display content. For example:
+    </p>
+
+    pre>
+&lt;h1&gt;Hello, World!&lt;/h1&gt;
+&lt;p&gt;This is my first web page.&lt;/p&gt;
+</pre>
+
+    <p>
+      <strong>CSS</strong> (Cascading Style Sheets) is what makes your website look beautiful. It controls colors, fonts, spacing, and layouts. Here’s a quick example:
+    </p>
+
+<pre>
+
+    <pre>
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #333;
+}
+</pre>
+p>Here’s how to get started:</p>
+    <ul>
+      <li>📂 Create a project folder on your computer.</li>
+      <li>📄 Make an <code>index.html</code> file for your HTML content.</li>
+      <li>🎨 Make a <code>style.css</code> file for your styles.</li>
+      <li>🔗 Link the CSS file to your HTML using <code>&lt;link rel="stylesheet" href="style.css"&gt;</code>.</li>
+      <li>🖥 Open your HTML file in a browser to see your work.</li>
+    </ul>
+
+    <p>
+      Once you know the basics, you can experiment with layouts, colors, and fonts. Over time, you’ll move from building simple static pages to creating full, interactive websites.
+    </p>
+
+    <p>
+      Learning HTML and CSS is your first step into web development. Practice regularly, explore resources like MDN Web Docs, and don’t be afraid to experiment — that’s how great websites are made!
+    </p>
+
+    <a href="index.html" class="back-link">← Back to Blog</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Himanshu's Blog. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

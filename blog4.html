@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🚀 Learn JavaScript Fast</title>
+  <style>
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f3f4f6;
+      color: #333;
+    }
+
+    /* Navbar styles */
+    .navbar {
+      background-color: #111;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .navbar .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #00bfff;
+    }
+
+    /* Blog post container */
+    .post-container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .post-container h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .post-container p {
+      font-size: 17px;
+      line-height: 1.7;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .post-container ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .post-container ul li {
+      margin-bottom: 10px;
+    }
+
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-size: 15px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">📝 Himanshu's Blog</div>
+      <nav class="nav-links">
+        <a href="">Home</a>
+        <a href="#">Posts</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Blog Post -->
+  <div class="post-container">
+    <h1>🚀 Learn JavaScript Fast</h1>
+
+    <p>
+      JavaScript is the programming language that makes websites interactive. While HTML gives structure and CSS adds style, JavaScript allows you to create animations, handle user input, and build fully dynamic web applications.
+    </p>
+
+    <p><strong>Why Learn JavaScript?</strong></p>
+    <ul>
+      <li>🖱 Make buttons, forms, and menus interactive</li>
+      <li>🎮 Build games and web apps</li>
+      <li>⚡ Control how your website responds to users</li>
+      <li>🌍 Work on both browsers and servers (Node.js)</li>
+    </ul>
+
+    <p><strong>The Basics You Need to Know:</strong></p>
+    <p>1. <strong>Variables</strong> – Store and manage data.</p>
+<pre>
+let name = "Himanshu";
+console.log(name);
+</pre>
+
+    <p>2. <strong>Functions</strong> – Reusable blocks of code.</p>
+<pre>
+function greet() {
+  alert("Hello, World!");
+}
+greet();
+</pre>
+
+    <p>3. <strong>Events</strong> – React to user actions.</p>
+<pre>
+document.getElementById("btn").onclick = function() {
+  alert("Button clicked!");
+}
+</pre>
+
+    <p>4. <strong>DOM Manipulation</strong> – Change content dynamically.</p>
+<pre>
+document.getElementById("title").innerText = "Welcome!";
+</pre>
+
+    <p><strong>How to Learn Quickly:</strong></p>
+    <ul>
+      <li>🛠 Build small projects (to-do list, calculator, quiz)</li>
+      <li>📚 Use free resources like MDN Web Docs & freeCodeCamp</li>
+      <li>🔄 Practice daily — even 30 minutes helps</li>
+      <li>❌ Focus on progress, not perfection</li>
+    </ul>
+
+    <p><strong>Try Your First Project:</strong></p>
+<pre>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Test</title>
+</head>
+<body>
+  <h1 id="title">Hello!</h1>
+  <button id="btn">Click Me</button>
+
+  <script>
+    document.getElementById("btn").onclick = function() {
+      document.getElementById("title").innerText = "You clicked the button!";
+    }
+  </script>
+</body>
+</html>
+</pre>
+
+    <p>
+      Open the file in your browser — congratulations, you just made your first interactive web page!
+    </p>
+
+    <a href="index.html" class="back-link">← Back to Blog</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Himanshu's Blog. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
